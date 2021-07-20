@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/03_formulaire.css">
+    <title>Document</title>
+</head>
+<body>
+    
+     <!-- je déclare mon formulaire avec la balise from -->
+    <form>
+        <!-- texte -->
+        <label for="pseudo">Pseudo *</label>
+        <input id="pseudo" type="text" name="pseudo" placeholder="titiVLG" required><br />
+        <!-- required indique que le champs doit être renseigné -->
+     
+        <!-- mot de passe -->
+        <label for="mdp">Mot de passe *</label>
+        <input type="password" name="mdp" placeholder="Mot de passe" required><br />
+     
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="email"><br />
+     
+        <!-- fichier -->
+        <label for="photo">Photo</label>
+        <input type="file" name="photo"><br />
+     
+        <!-- cases à cocher -->
+        <label for="question">Quelle destination choississez vous ?</label>
+        <p>
+            <input type="checkbox" name="question">Chine
+            <!-- avec checkbox on coche une case par défaut -->
+            <input type="checkbox" name="question" checked>Australie
+            <input type="checkbox" name="question">Mars
+        </p>
+     
+        <!-- zone de texte -->
+        <label for="commentaire">commentaire</label>
+        <textarea name="commentaire" rows="8" cols="80"></textarea><br />
+        <!-- rows=nombre de lignes - cols=nombre de colonnes/caractères -->
+     
+        <!-- bouton envoie du formulaire -->
+        <input type="submit" name="inscription" value="Envoyer">
+        <!-- bouton pour vider le formulaire -->
+        <input type="reset" name="annuler" value="Annuler">
+    </form>
+     
+   
+</body>
+</html>

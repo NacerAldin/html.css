@@ -1,0 +1,41 @@
+/* commentaires en css */
+*{
+    text-align: right;
+}
+body{
+    background: #f5deb3;
+}
+header{ 
+    background-color: #900c3f;
+color:#fff;
+height: 100px;
+
+}
+nav{
+    background-color: #daf7a6;
+    height: 60px;
+}
+section{
+    background-color: navy;
+height: 550px;
+}
+article{
+    background-color: #ff5733;
+}
+footer{background-color: #daf7a6;
+height: 75px;
+}
+nav, footer{
+    color: #a93226
+}
+/*je cible une class avec un point devant*/
+.jaune{
+    background-color: yellow;
+}
+/*je cible une class avec un point devant*/
+#noir{
+    background-color: black;
+    color:#fff;
+    text-align:justify;
+    font-size: 25px; 
+}
